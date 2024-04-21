@@ -188,7 +188,7 @@
 				// Function to fetch menu from the server
 				$(document).ready(function() {
 					$.ajax({
-						url: 'http://localhost:3000/lunch.txt', // Assuming your server is running locally on port 3000
+						url: '/lunch.txt', // Assuming your server is running locally on port 3000
 						type: 'GET',
 						success: function(data) {
 							$('#lunch-content').html(data); // Display the menu in the 'menu' div
@@ -203,7 +203,7 @@
 				// Function to fetch menu from the server
 				$(document).ready(function() {
 					$.ajax({
-						url: 'http://localhost:3000/dinner.txt', // Assuming your server is running locally on port 3000
+						url: '/dinner.txt', // Assuming your server is running locally on port 3000
 						type: 'GET',
 						success: function(data) {
 							$('#dinner-content').html(data); // Display the menu in the 'menu' div
