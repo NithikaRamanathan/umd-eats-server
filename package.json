@@ -1,0 +1,17 @@
+{
+  "name": "umd-eats",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "repository": {},
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "node assets/js/readTextFile.js"
+  }
+}
